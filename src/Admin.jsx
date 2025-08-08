@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import "./app.css";
 
 export default function Admin() {
   const [products, setProducts] = useState([]);
