@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "./Navbar";
-import "./app.css";
+import "./App.css";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
